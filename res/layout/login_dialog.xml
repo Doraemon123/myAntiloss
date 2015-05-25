@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="130dp"
+    android:layout_height="50dp"
+    android:orientation="horizontal" 
+    android:background="@drawable/login_dialog_bg"
+    android:layout_gravity="center"
+    android:gravity="center">
+    
+    <com.example.view.FlippingImageView
+        android:id="@+id/iv"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:src="@drawable/add_normal"
+        />
+    
+    <TextView 
+        android:id="@+id/message_tv"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="数据加载中..."
+        android:textSize="15sp"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        />
+
+</LinearLayout>
